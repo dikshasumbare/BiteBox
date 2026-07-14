@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Playfair Display",serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    padding: 15px 40px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav h2 {
+    color: white;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav li:last-child a {
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+nav li:last-child a:hover {
+    background: #cc0000;
+    color: black;
+}
+.hero {
+    height: 90vh;
+    background: url("images/banner.png") no-repeat center/cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero-content{
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom:10px;
+}
+
+.hero-content p{
+    margin-top:10px;
+    font-size: 30px;
+}
+.hero-content h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero button:hover {
+    background: darkred;
+}
+.video-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+}
+
+.video-text {
+    flex: 1;
+}
+
+.video-box {
+    flex: 1;
+}
+.video-box video {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.video-text h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.video-text p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgba(255, 0, 0, 0.615);
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}

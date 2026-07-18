@@ -9,15 +9,6 @@
 body{
     background:linear-gradient(to bottom,#ffffff,#f5f5f5);
 }
-
-
-
-header{
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
 nav{
     display:flex;
     justify-content:space-between;
@@ -174,7 +165,7 @@ nav li:last-child a:hover{
 
 .card img{
     width:100%;
-    height:320px;
+    height:300px;
     object-fit:cover;
 
     transition:.5s;
@@ -273,8 +264,109 @@ nav li:last-child a:hover{
 .icon-box:hover p{
     color:#ff3b30;
 }
+
 header{
     position: sticky;
     top: 0;
     z-index:1000;
+}
+
+
+table{
+    width: 60%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+.cart{
+    padding-top:40px;
+}
+
+thead{
+    background: #f80202;
+    color: white;
+}
+
+th,
+td{
+    padding: 15px;
+    text-align: center;
+}
+
+tbody tr{
+    border-bottom: 1px solid black;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.item img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.remove{
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove:hover{
+    background: darkred;
+}
+
+.grand-total td{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grand-total button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.grand-total button:hover {
+    background: darkred;
+}
+
+.qty-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.qty-box button{
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.qty-box button:hover{
+    background: #cc0000;
+}
+
+.qty-box span{
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
 }

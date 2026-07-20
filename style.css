@@ -302,7 +302,7 @@ tbody tr{
 .item{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 .item img{
     width: 70px;
@@ -369,4 +369,70 @@ tbody tr{
     font-weight: bold;
     min-width: 20px;
     text-align: center;
+}
+
+
+.auth-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#000,#1c1c1c);
+}
+.auth-box{
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width:400px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(red, green, blue, alpha);
+}
+.auth-box h2{
+    margin-bottom: 40px;
+    color: #000;
+}
+.auth-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 ;
+    border: 1px solid #ddd;
+    border-radius: 5c;
+    outline: none;
+}
+.auth-box input:focus{
+    border-color: red;
+}
+.auth-box button{
+  width: 100px;
+  padding: 10px;
+  background: red;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.auth-box button:hover{
+    background-color: #cc0000;
+}
+.auth-box p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.auth-box a{
+    color: red;
+    text-decoration: none;
+}
+.login-box{
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.login-container{
+    width:420px;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.5);
 }

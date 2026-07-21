@@ -436,3 +436,142 @@ tbody tr{
     border-radius:20px;
     box-shadow:0 15px 35px rgba(0,0,0,0.5);
 }
+
+
+.deals-page{
+    padding: 40px;
+    background: #f8f8f8;
+}
+.deal-hero{
+    background: linear-gradient(135deg, rgb(0,0,0),#202020) ;
+    color: white;
+    padding: 50PX;
+    text-align: center;
+    border-radius: 10PX;
+    margin-bottom: 40PX;
+}
+
+.section-title{
+    margin: 20px 0 30px;
+    font-size: 28px;
+    color: #000;
+}
+.combo-section{
+    padding:40px;
+    background: #fff;
+}
+.combo-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap:25px;
+}
+.combo-card{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:.3s;
+
+}
+.combo-card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.combo-card h4{
+    margin: 10px 0;
+}
+.combo-card h4 span{
+    text-decoration: line-through;
+    color: grey;
+    margin-right: 10px;
+}
+.combo-card button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.combo-card button:hover{
+    background: darkred;
+}
+.combo-card:hover{
+    transform: translateY(-8px);
+}
+
+.deals-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.deal-card{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.deal-card h3{
+    margin-bottom: 10px;
+}
+
+.deal-card span{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.deal-card:hover{
+    transform: translateY(-8px);
+}
+
+.deal-card h3{
+    margin-bottom: 10px;
+}
+
+.deal-card span{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.deal-card:hover{
+    transform: translateY(-8px);
+}
+
+.red{
+    border-top: 5px solid red;
+}
+
+.yellow{
+    border-top: 5px solid orange;
+}
+
+.green{
+    border-top: 5px solid green;
+}
+
+.blue{
+    border-top: 5px solid blue;
+}
+.special-offers,
+.hot-deals{
+    width: 95%;
+    margin: auto;
+}
+.hot-deals{
+    margin-bottom: 40px;
+}
